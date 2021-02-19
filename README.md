@@ -21,4 +21,20 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+## Part 1 - Gutenberg HTML
 
+The books came with their own <style> embedded in the HTML, so I commented that out and linked them to my style.css instead. I also added a <meta> viewport tag to make the page scale properly on mobile resolutions. On the whole, these pages do not need many changes. I left the <pre> tag style as-is to respect its purpose.
+
+Sherlock Holmes:
+
+![](part1/sherlock.png)
+
+Jane Eyre:
+
+![](part1/janeeyre.png)
+
+Treasure Island:
+
+![](part1/treasureisland.png)
+
+## Part 2 - Professional & Funny pages
