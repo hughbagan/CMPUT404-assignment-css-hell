@@ -25,16 +25,16 @@ Code is licensed under the Apache 2.0 license.
 
 The books came with their own <style> embedded in the HTML, so I commented that out and linked them to my style.css instead. I also added a <meta> viewport tag to make the page scale properly on mobile resolutions. On the whole, these pages do not need many changes. I left the <pre> tag style as-is to respect its purpose.
 
-Sherlock Holmes:
+gutenberg1.png
 
-![](part1/sherlock.png)
+![](gutenberg1.png)
 
-Jane Eyre:
+gutenberg2.png
 
-![](part1/janeeyre.png)
+![](gutenberg2.png)
 
-Treasure Island:
+gutenberg3.png
 
-![](part1/treasureisland.png)
+![](gutenberg3.png)
 
 ## Part 2 - Professional & Funny pages
