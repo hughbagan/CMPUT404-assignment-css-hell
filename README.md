@@ -38,3 +38,10 @@ gutenberg3.png
 ![](gutenberg3.png)
 
 ## Part 2 - Professional & Funny pages
+
+## Sources
+
+* Chris Coyier. "A Complete Guide to Flexbox" https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* Cherif. "Resize image proportionally with CSS?" https://stackoverflow.com/a/15501985
+* MDN. "Semantics in HTML" https://developer.mozilla.org/en-US/docs/Glossary/semantics
+* MDN. "The Unordered List Element" https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
