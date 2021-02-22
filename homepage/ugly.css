@@ -1,0 +1,93 @@
+body {
+    /*max-width: 1000px;*/
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: cursive;
+    font-size: 16pt;
+    line-height: 1.4;
+    background-image: url('back.jpg');
+    background-repeat: repeat;
+    background-blend-mode:lighten;
+    background-size: 50%;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Faster One', cursive;
+    font-size: 2.5em;
+    animation: filter-animation 1s infinite;
+}
+
+#main-container {
+    display: flex;
+    flex-direction:row;
+}
+#main-tag {
+    max-width: 800px;
+    background-color:purple;
+    box-shadow: 10px 10px 0px 0px beige; 
+}
+#profile {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    background: linear-gradient(black, white);
+    box-shadow: 10px 10px 0px 0px beige; 
+    animation: filter-animation 5s infinite;
+}
+#profile-desc {
+    display: flex;
+    flex-direction: column;
+}
+#profile-pic {
+    /* Cherif, via https://stackoverflow.com/a/15501985 */
+    width: auto;
+    height: auto;
+    max-width: 175px;
+    max-height: 175px;
+    margin-right: 1em;
+    animation: filter-animation 5s infinite;
+}
+/* Filter animation from Chris Coyier on CSS tricks 
+https://css-tricks.com/almanac/properties/f/filter/#animating-filters */
+@keyframes filter-animation {
+    0% { filter: sepia(0) saturate(2); }
+    50% { filter: sepia(1) saturate(8); }
+    100% { filter: sepia(0) saturate(2); }
+}
+
+#history, #skills {
+    margin-bottom: 3em;
+}
+.tableheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dotted black; 
+}
+.notop {
+    margin-top: 0;
+}
+.nobottom {
+    margin-bottom: 0;
+}
+
+#sidebar {
+    max-width: 200px;
+    /* border-left: 1px dotted grey; */
+    background-color:royalblue;
+    box-shadow: 10px 10px 0px 0px beige; 
+    margin-left: 2em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sidebar > ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+#sidebar > ul > li {
+    margin-bottom: 3em;
+}
