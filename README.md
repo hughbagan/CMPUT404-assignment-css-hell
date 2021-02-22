@@ -23,7 +23,7 @@ Code is licensed under the Apache 2.0 license by Hugh Bagan.
 
 ## Part 1 - Gutenberg HTML
 
-The books came with their own <style> embedded in the HTML, so I commented that out and linked them to my style.css instead. I also added a <meta> viewport tag to make the page scale properly on mobile resolutions. On the whole, these pages do not need many changes. I left the <pre> tag style as-is to respect its purpose.
+The books came with their own <style> embedded in the HTML, so I commented that out and linked them to my style.css instead. I also added a <meta> viewport tag to make the page scale properly on mobile resolutions. On the whole, these pages do not need many changes. I left the `<pre>` tag style as-is to respect its purpose.
 
 gutenberg1.png
 
