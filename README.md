@@ -39,7 +39,7 @@ gutenberg3.png
 
 ## Part 2 - Professional & Funny pages
 
-I already did the whole assignment before I realized I was supposed to recreate the page from the comic. Instead, I thought the requirements wanted me to make a page about *myself*.
+I already did the whole assignment before I realized I was supposed to recreate the page from the comic. Instead, I thought the requirements wanted me to make a page about *myself*. I'm sorry!
 
 good.png
 ![](good.png)
