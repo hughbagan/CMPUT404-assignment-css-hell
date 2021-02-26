@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
     width: auto;
     height: auto;
     max-width: 175px;
-    max-height: 175px;
+    max-height: 250px;
     margin-right: 1em;
     animation: filter-animation 5s infinite;
 }

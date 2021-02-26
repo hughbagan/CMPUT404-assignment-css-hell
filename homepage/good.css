@@ -1,8 +1,10 @@
 body {
-    /*max-width: 1000px;*/
+    max-width: 1000px;
     margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.4;
     background-color: #eaeaff;
@@ -14,7 +16,7 @@ body {
     flex-direction:row;
 }
 #main-tag {
-    max-width: 800px;
+    flex-grow: 4;
 }
 #profile {
     width: auto;
@@ -52,7 +54,7 @@ body {
 }
 
 #sidebar {
-    max-width: 200px;
+    /*flex-grow: 1;*/
     border-left: 1px dotted grey;
     margin-left: 2em;
     padding-left: 1em;
